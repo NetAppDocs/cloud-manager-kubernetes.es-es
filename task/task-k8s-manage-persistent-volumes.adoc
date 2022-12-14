@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: /task/task-k8s-manage-persistent-volumes.html 
+keywords: kubernetes, k8s, view persistent volume 
+summary: Después de añadir un clúster de Kubernetes gestionado al lienzo, se puede utilizar BlueXP para ver los volúmenes persistentes conectados. 
+---
+= Vea los volúmenes persistentes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Después de añadir un clúster de Kubernetes gestionado al lienzo, puedes utilizar BlueXP para ver los volúmenes persistentes.
+
+
+NOTE: BlueXP supervisa el clúster de Kubernetes en busca de cambios en el back-end y actualiza la tabla de volúmenes persistentes cuando se añaden nuevos volúmenes. Si se configuró el backup automático en el clúster, el backup se habilita automáticamente en los nuevos volúmenes persistentes.
+
+.Pasos
+. Haga doble clic en el entorno de trabajo de Kubernetes en el lienzo o haga clic en *Entrar en entorno de trabajo*.
+. Haga clic en *Ver volúmenes* en la ficha *Descripción general* o haga clic en la ficha *volúmenes persistentes*. Si no se configuran volúmenes persistentes, consulte link:https://docs.netapp.com/us-en/trident/trident-concepts/provisioning.html["El provisionamiento"^] Para obtener más información sobre el aprovisionamiento de volúmenes en Astra Trident.
+
+
+.Resultados
+Se muestra una tabla de los volúmenes persistentes configurados.
+
+image:screenshot-k8s-volume-table.png["Una captura de pantalla de la tabla de volúmenes persistentes."]

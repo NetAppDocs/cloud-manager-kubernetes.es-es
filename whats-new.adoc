@@ -1,0 +1,144 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, cloud manager' 
+summary: Descubra las novedades de Kubernetes en BlueXP. 
+---
+= Novedades de Kubernetes en BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Descubra las novedades de Kubernetes en BlueXP (anteriormente Cloud Manager).
+
+
+
+== 06 de noviembre de 2022
+
+Cuando link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["definición de clases de almacenamiento"], ahora puede habilitar la economía de clase de almacenamiento para el almacenamiento de bloques o sistemas de ficheros.
+
+
+
+== 18 de septiembre de 2022
+
+Ahora puede importar clústeres de OpenShift autogestionados a Cloud Manager.
+
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-openshift.html["Requisitos para clústeres de Kubernetes en OpenShift"]
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-add-openshift.html["Agregue un clúster OpenShift a Cloud Manager"]
+
+
+
+
+== 31 de julio de 2022
+
+* Usando el nuevo `- watch` verbo en la clase de almacenamiento, backup y restauración de configuraciones YAML, Cloud Manager ahora puede supervisar los clústeres de Kubernetes en busca de cambios realizados en el back-end del clúster y habilitar automáticamente el backup para nuevos volúmenes persistentes si se configuró el backup automático en el clúster.
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["Requisitos para clústeres de Kubernetes en AWS"]
+
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Requisitos para clústeres de Kubernetes en Azure"]
+
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Requisitos para los clústeres de Kubernetes en Google Cloud"]
+
+* Cuando link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["definición de clases de almacenamiento"], ahora puede especificar un tipo de sistema de archivos (fstype) para el almacenamiento de bloques.
+
+
+
+
+== 3 de julio de 2022
+
+* Si se puso en marcha Astra Trident con el operador Trident, ahora puede actualizar a la última versión de Astra Trident mediante Cloud Manager.
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-trident.html["Instalar y gestionar Astra Trident"]
+
+* Ahora puede arrastrar su clúster de Kubernetes y colocarlo en el entorno de trabajo AWS FSX para ONTAP y añadir una clase de almacenamiento directamente desde el lienzo.
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["Añada la clase de almacenamiento"]
+
+
+
+
+
+== 6 de junio de 2022
+
+Cloud Manager ahora suora Amazon FSX para ONTAP como almacenamiento de back-end.
+
+
+
+== 4 de mayo de 2022
+
+
+
+=== Arrastre y suelte para añadir clase de almacenamiento
+
+Ahora puede arrastrar su clúster de Kubernetes y soltarlo al entorno de trabajo de Cloud Volumes ONTAP para añadir una clase de almacenamiento directamente desde el lienzo.
+
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["Añada la clase de almacenamiento"]
+
+
+
+== 4 de abril de 2022
+
+
+
+=== Gestione clústeres de Kubernetes usando la página de recursos Cloud Manager
+
+La gestión del clúster de Kubernetes ahora ha mejorado la integración directamente desde el entorno de trabajo de clústeres. Un nuevo link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-quick-start.html["Inicio rápido"] le pone en marcha rápidamente.
+
+Ahora puede realizar las siguientes acciones desde la página de recursos del clúster.
+
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-trident.html["Instale Astra Trident"]
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html["Añada clases de almacenamiento"]
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-persistent-volumes.html["Vea los volúmenes persistentes"]
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-remove-cluster.html["Quite los clústeres"]
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-enable-services.html["Habilitar los servicios de datos"]
+
+
+
+
+== 27 de febrero de 2022
+
+
+
+=== Compatibilidad con clústeres de Kubernetes en Google Cloud
+
+Ahora puede añadir y gestionar clústeres gestionados de Google Kubernetes Engine (GKE) y clústeres de Kubernetes autogestionados en Google Cloud mediante Cloud Manager.
+
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Descubra cómo empezar a utilizar los clústeres de Kubernetes en Google Cloud"].
+
+
+
+== 11 de enero de 2022
+
+
+
+=== Compatibilidad con clústeres de Kubernetes en Azure
+
+Ahora puede añadir y gestionar clústeres gestionados de Azure Kubernetes (AKS) y clústeres de Kubernetes autogestionados en Azure usando Cloud Manager.
+
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Introducción a los clústeres de Kubernetes en Azure"]
+
+
+
+== 28 de noviembre de 2021
+
+
+
+=== Compatibilidad con clústeres de Kubernetes en AWS
+
+Ahora puede añadir sus clústeres de Kubernetes gestionados a Canvas de Cloud Manager para una gestión de datos avanzada.
+
+* Descubra los clústeres de Amazon EKS
+* Realice backups de volúmenes persistentes mediante Cloud Backup
+
+
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/concept-kubernetes.html["Obtenga más información sobre la compatibilidad con Kubernetes"].
+
+
+TIP: El servicio Kubernetes existente (disponible a través de la pestaña *K8s*) ha sido obsoleto y se eliminará en una versión futura.

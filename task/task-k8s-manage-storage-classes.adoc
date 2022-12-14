@@ -1,0 +1,108 @@
+---
+sidebar: sidebar 
+permalink: /task/task-k8s-manage-storage-classes.html 
+keywords: kubernetes, k8s, add storage class, remove storage class 
+summary: Después de añadir un clúster de Kubernetes gestionado al lienzo, puede utilizar BlueXP para gestionar las clases de almacenamiento. 
+---
+= Gestione las clases de almacenamiento
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Después de añadir un clúster de Kubernetes gestionado al lienzo, puede utilizar BlueXP para gestionar las clases de almacenamiento.
+
+
+NOTE: Si no se define ninguna clase de almacenamiento, el clúster mostrará que es necesaria una acción. Al hacer doble clic en el clúster del lienzo se abre la página de acciones para añadir una clase de almacenamiento.
+
+
+
+== Añada la clase de almacenamiento
+
+.Pasos
+. Desde el lienzo, arrastre y suelte el entorno de trabajo de Kubernetes en el entorno de trabajo Cloud Volumes ONTAP o Amazon FSX para ONTAP para abrir el asistente de clase de almacenamiento.
+. Escriba un nombre para la clase de almacenamiento.
+. Seleccione almacenamiento *sistema de archivos* o *bloque*.
++
+.. Para almacenamiento *Block*, seleccione un tipo de sistema de archivos (fstype)
++
+image:screenshot-k8s-storage-fstype.png["Una captura de pantalla que muestra la opción fstype para el almacenamiento de bloques al configurar una clase de almacenamiento K8s."]
+
+.. Para almacenamiento *Block* o *Filesystem*, puede seleccionar activar la economía de clase de almacenamiento.
++
+image:screenshot-k8s-storage-economy.png["Una captura de pantalla que muestra la opción de ahorro de almacenamiento al configurar un bloque o una clase de almacenamiento de archivos K8S."]
+
++
+
+NOTE: No se admiten los backups y las restauraciones al utilizar la economía de clase de almacenamiento.
+
+
+
+. Seleccione opciones para la expansión de volumen, el enlace de volumen y la clase de almacenamiento predeterminada. Haga clic en *Siguiente*.
+. Seleccione un entorno de trabajo para conectarse al clúster. Haga clic en *Agregar*.
++
+image:screenshot-k8s-select-storage-class.png["Una captura de pantalla que muestra la selección del entorno de trabajo para el clúster de Kubernetes."]
+
+
+
+.Resultados
+Puede hacer clic en para ver la clase de almacenamiento en la página de recursos del clúster de Kubernetes.
+
+image:screenshot-k8s-view-storage-class.png["Una captura de pantalla que muestra «Ver clase de almacenamiento» de la página de recursos de Kubernetes."]
+
+
+
+== Ver detalles del entorno de trabajo
+
+.Pasos
+. Haga doble clic en el entorno de trabajo de Kubernetes en el lienzo o haga clic en *Entrar en entorno de trabajo*.
+. Haga clic en la ficha *clases de almacenamiento*.
+. Haga clic en el icono de información para ver los detalles del entorno de trabajo.
+
+
+.Resultados
+Se abrirá el panel de detalles del entorno de trabajo.
+
+image:screenshot-k8s-info-storage-class.png["Una captura de pantalla de los detalles del entorno de trabajo para el clúster de Kubernetes."]
+
+
+
+== Establecer la clase de almacenamiento predeterminada
+
+.Pasos
+. Haga doble clic en el entorno de trabajo de Kubernetes en el lienzo o haga clic en *Entrar en entorno de trabajo*.
+. Haga clic en la ficha *clases de almacenamiento*.
+. Haga clic en el menú de acciones de la clase de almacenamiento y haga clic en *establecer como predeterminado*.
++
+image:screenshot-k8s-default-storage-class.png["Captura de pantalla del menú de acción que establece la clase de almacenamiento predeterminada."]
+
+
+
+.Resultados
+La clase de almacenamiento seleccionada se establece como predeterminada.
+
+image:screenshot-k8s-default-set-storage-class.png["Captura de pantalla que muestra la clase de almacenamiento predeterminada."]
+
+
+
+== Quite la clase de almacenamiento
+
+.Pasos
+. Haga doble clic en el entorno de trabajo de Kubernetes en el lienzo o haga clic en *Entrar en entorno de trabajo*.
+. Haga clic en la ficha *clases de almacenamiento*.
+. Haga clic en el menú de acciones de la clase de almacenamiento y haga clic en *establecer como predeterminado*.
++
+image:screenshot-k8s-remove-storage-class.png["Captura de pantalla del menú de acción para eliminar la clase de almacenamiento."]
+
+. Haga clic en *Quitar* para confirmar la eliminación de la clase de almacenamiento.
++
+image:screenshot-k8s-remove-confirm-storage-class.png["Captura de pantalla de confirmación para eliminar la clase de almacenamiento."]
+
+
+
+.Resultados
+Se elimina la clase de almacenamiento seleccionada.

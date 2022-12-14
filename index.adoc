@@ -1,0 +1,15 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+summary: Añada sus clústeres de Kubernetes gestionados a BlueXP para una gestión de datos avanzada. 
+---
+= Documentación de los clústeres de Kubernetes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+

@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: concept-manage-k8s.html 
+keywords: overview, manage, k8s, kubernetes 
+summary: Puede usar BlueXP para instalar Astra Trident, configurar clases de almacenamiento, quitar clústeres y habilitar los servicios de datos. 
+---
+= Gestione clústeres de Kubernetes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+Puede usar BlueXP para instalar o actualizar Astra Trident, configurar clases de almacenamiento, quitar clústeres y habilitar servicios de datos.
+
+
+NOTE: Astra Trident puso en marcha con `tridentctl` no es compatible. Si puso en marcha Astra Trident con `tridentctl`, No puede utilizar BlueXP para administrar los clústeres de Kubernetes. Debe  y volver a instalar link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Utilice el operador Trident"^] o. link:./tasks/task-k8s-manage-trident.html["Uso de BlueXP"].
+
+
+
+== Funciones
+
+Después de añadir clústeres de Kubernetes a BlueXP, puede gestionar los clústeres desde la página de recursos. Para abrir la página de recursos, haga doble clic en el entorno de trabajo de Kubernetes en el lienzo.
+
+image:screenshot-k8s-resource-page.png["Una captura de pantalla de la página de recursos de Kubernetes que muestra detalles del clúster."]
+
+Desde la página de recursos, puede:
+
+* Ver el estado del clúster de Kubernetes.
+* Confirmar que haya instalado una versión compatible de Astra Trident o que actualice a la última versión de Astra Trident. Consulte link:./task/task-k8s-manage-trident.html["Instale Astra Trident"].
+* Añada y elimine clases de almacenamiento. Consulte link:./task/task-k8s-manage-storage-classes.html["Gestione las clases de almacenamiento"].
+* Vea los volúmenes persistentes. Consulte link:./task/task-k8s-manage-persistent-volumes.html["Vea los volúmenes persistentes"].
+* Quite los clústeres de Kubernetes del espacio de trabajo. Consulte link:./task/task-k8s-manage-remove-cluster.html["Quite los clústeres"].
+* Activar o ver Cloud Backup. Consulte link:./task/task-kubernetes-enable-services.html["Utilice los servicios de datos en el cloud de NetApp"].
+

@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: /task/task-kubernetes-enable-services.html 
+keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, amazon eks, eks, kubernetes support 
+summary: Después de añadir un clúster de Kubernetes gestionado al lienzo, podrá utilizar los servicios de datos en el cloud de NetApp para tareas avanzadas de gestión de datos. 
+---
+= Use los servicios de datos en el cloud de NetApp con clústeres de Kubernetes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Después de añadir un clúster de Kubernetes gestionado al lienzo, podrá utilizar los servicios de datos en el cloud de NetApp para la gestión de datos avanzada.
+
+Puede usar Cloud Backup para realizar backups de volúmenes persistentes en el almacenamiento de objetos.
+
+link:https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-kubernetes-backup-to-cloud.html["Descubra cómo proteger los datos de clústeres Kubernetes con Cloud Backup"^].
+
+image:screenshot-k8s-backup.png["Una captura de pantalla de la página Kubernetes en el Cloud Backup Service, que muestra cinco tareas de backup para un clúster de Kubernetes."]
