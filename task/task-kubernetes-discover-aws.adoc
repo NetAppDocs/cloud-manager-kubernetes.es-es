@@ -24,12 +24,12 @@ Puede detectar un clúster de Kubernetes totalmente gestionado o autogestionado.
 
 .Pasos
 . En *Canvas*, haga clic en *Agregar entorno de trabajo*.
-. Seleccione *Amazon Web Services* > *clúster Kubernetes* y haga clic en *Siguiente*.
+. Seleccione *Amazon Web Services* > *clúster Kubernetes* > *Discover*.
 +
 image:screenshot-discover-kubernetes-aws-1.png["Una captura de pantalla de la página Discover a Kubernetes Cluster donde se muestra una región AWS seleccionada y un clúster de Kubernetes."]
 
 . Seleccione *Discover Cluster* y haga clic en *Siguiente*.
-. Elija una región de AWS, seleccione un clúster de Kubernetes y, a continuación, haga clic en *Siguiente*.
+. Elija una región de AWS, seleccione un clúster de Kubernetes y haga clic en *Siguiente*.
 +
 image:screenshot-discover-kubernetes-aws-2.png["Una captura de pantalla de la página Discover a Kubernetes Cluster donde se muestra una región AWS seleccionada y un clúster de Kubernetes."]
 
@@ -48,7 +48,7 @@ Es posible importar un clúster de Kubernetes autogestionado mediante un archivo
 
 .Pasos
 . En *Canvas*, haga clic en *Agregar entorno de trabajo*.
-. Seleccione *Amazon Web Services* > *clúster Kubernetes* y haga clic en *Siguiente*.
+. Seleccione *Amazon Web Services* > *clúster Kubernetes* > *Discover*.
 . Seleccione *clúster de importación* y haga clic en *Siguiente*.
 . Cargue un archivo de configuración de Kubernetes en formato YAML.
 +

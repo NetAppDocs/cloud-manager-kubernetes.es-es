@@ -4,7 +4,7 @@ permalink: /task/task-kubernetes-discover-openshift.html
 keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, openshift, kubernetes support, import kubernetes cluster, import 
 summary: Importe un clúster OpenShift autogestionado a BlueXP para que pueda empezar a realizar backups de volúmenes persistentes a su proveedor de Cloud. 
 ---
-= Agregue un clúster OpenShift a BlueXP
+= Importe un clúster OpenShift a BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -23,7 +23,7 @@ Importe un clúster OpenShift autogestionado a BlueXP para que pueda empezar a r
 Es posible importar un clúster de Kubernetes autogestionado mediante un archivo de configuración de Kubernetes.
 
 .Antes de empezar
-Antes de agregar un clúster OpenShift, necesita:
+Antes de importar un clúster de OpenShift, necesita:
 
 * El archivo 'kubeconfig-sa' creado en link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-openshift.html#create-a-kubeconfig-file["cree un archivo kubeconfig"].
 * Los archivos public Certificate Authority (por ejemplo, ca.crt), Client Key (por ejemplo, tls.key) y Client Certification (por ejemplo, tls.crt) para el clúster.
@@ -31,7 +31,7 @@ Antes de agregar un clúster OpenShift, necesita:
 
 .Pasos
 . En *Canvas*, seleccione *Agregar entorno de trabajo*.
-. Seleccione su proveedor de cloud y seleccione *clúster de Kubernetes* y después *Siguiente*.
+. Seleccione su proveedor de cloud y seleccione *clúster de Kubernetes* > *Discover*.
 . Seleccione *clúster de importación* y *Siguiente*.
 . Cargue el `kubeconfig-sa` archivo en el que ha creado link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-openshift.html#create-a-kubeconfig-file["cree un archivo kubeconfig"]. Seleccione el clúster de Kubernetes y seleccione *Siguiente*.
 +

@@ -14,7 +14,7 @@ NetApp ofrece soporte para BlueXP y sus servicios cloud de diversas maneras. Hay
 
 
 
-== Autoasistencia
+== Utilice opciones de soporte automático
 
 Estas opciones están disponibles de forma gratuita, las 24 horas del día, los 7 días de la semana:
 
@@ -38,7 +38,7 @@ Apreciamos sus opiniones. Envíe sus comentarios para ayudarnos a mejorar BlueXP
 
 
 
-== Soporte de NetApp
+== Cree un caso con el soporte de NetApp
 
 Además de las opciones de autosoporte anteriores, puede trabajar con un especialista de soporte de NetApp para resolver cualquier problema después de activar el soporte de.
 
@@ -47,10 +47,10 @@ Para utilizar la capacidad *Crear un caso*, primero debe realizar un registro ú
 
 .Pasos
 . En BlueXP, haga clic en *Ayuda > Soporte*.
-. Seleccione una de las opciones disponibles en Soporte técnico:
+. En la página *Recursos*, elija una de las opciones disponibles en Soporte técnico:
 +
 .. Haga clic en *Llame a nosotros* si desea hablar con alguien en el teléfono. Se le dirigirá a una página de netapp.com que enumera los números de teléfono a los que puede llamar.
-.. Haga clic en *Crear un caso* para abrir una incidencia con los especialistas de soporte de NetApp:
+.. Haga clic en *Crear un caso* para abrir una incidencia con un especialista en soporte de NetApp:
 +
 *** *Cuenta del sitio de soporte de NetApp*: Seleccione la cuenta de NSS correspondiente asociada con la persona que abre el caso de soporte. Esta persona será el contacto principal con NetApp para contactar con ella, además de los correos electrónicos adicionales que se proporcionan a continuación.
 +
@@ -67,12 +67,12 @@ Para obtener más información sobre estas prioridades, pase el ratón sobre el 
 
 *** *Descripción del problema*: Proporcione una descripción detallada del problema, incluidos los mensajes de error aplicables o los pasos de solución de problemas que haya realizado.
 *** *Direcciones de correo electrónico adicionales*: Introduzca direcciones de correo electrónico adicionales si desea que alguien más conozca este problema.
+
+
+
+
 +
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-create-case.png["Captura de pantalla del formulario Crear un caso que le permite crear un caso con el soporte de NetApp."]
-
-
-
-
 
 
 
@@ -89,4 +89,65 @@ Este error podría significar que la cuenta NSS y la compañía de registro con 
 
 * Usar el chat en el producto
 * Envíe un caso no técnico en https://mysupport.netapp.com/site/help[]
+
+
+
+
+== 898e35e1a4bf4b025c3edec879439b08
+
+8b74b053fbeeff5c3b6f4991cb1d028d
+
+394ef093ad3259b9ff0fe7406f015b83
+
+Tenga en cuenta lo siguiente:
+
+* 5e4e7672ec2ba2b8a763da7f6714e212
++
+** 01c3ffea552d74a5ae390b10e71a1f26
+** e3b6c09a5686233f72ce1ea60a1eb088
+
+
++
+b19b168cc8a2b8c984465e140256b3a2
+
+* 56dcadeee6b0e5c47a52673f9b5a0bb3
++
+6f936762e1223311f031685422fcd3a4
+
+* b14929795a61440e9b4ec9f8a4885ae3
+
+
+.Pasos
+. En BlueXP, haga clic en *Ayuda > Soporte*.
+. 34b1296d31cefa72dae9b3a364b1f444
++
+d8ce1865cf1fe3cffd60300b4b86ad63
+
+. 2ae5ae78bdb2d222f15fd8e89248709c
++
+** 27635a52fe4c34c39ffc6430f4244ec6
+** 059e856250b59be3069246887b74a23c
++
+7fcba8aeefa9960d3fc3fa08b360ba2e
+
+** a1bb576be9e5a356290f231efb51b3f5
++
+37709be3a43df07d5975287545d0ba12
+
+** 1614dc8e47c0492434152c990d6c1040
++
+5de408d7cbad49634fb25f9047498132
+
+
+
+. 98efef1c8a47ed5791b41944e8ff4ec2
++
+** 6d9dd74e7709ef802d299966f7898f6b
+** 482429810c2b00a4fa04f9900c560232
+** f791bc685c526af8296381acff10f6a0
+
+
++
+e9a5c374fb47ed2ae5cc6108fb36d829
+
 

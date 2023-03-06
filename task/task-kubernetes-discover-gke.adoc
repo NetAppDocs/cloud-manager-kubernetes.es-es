@@ -24,7 +24,7 @@ Puede detectar un clúster de Kubernetes totalmente gestionado o autogestionado.
 
 .Pasos
 . En *Canvas*, haga clic en *Agregar entorno de trabajo*.
-. Seleccione *Google Cloud Platform* > *Kubernetes Cluster* y haga clic en *Siguiente*.
+. Seleccione *Google Cloud Platform* > *Kubernetes Cluster* > *Discover*.
 +
 image:screenshot-discover-kubernetes-gke.png["Una captura de pantalla de la página Add Working Environment en la que se muestran las opciones de Google Cloud Platform y Kubernetes Cluster."]
 
@@ -58,7 +58,7 @@ Necesitará certificados de entidad de certificación, clave de cliente y certif
 
 .Pasos
 . En *Canvas*, haga clic en *Agregar entorno de trabajo*.
-. Seleccione *Google Cloud Platform* > *Kubernetes Cluster* y haga clic en *Siguiente*.
+. Seleccione *Google Cloud Platform* > *Kubernetes Cluster* > *Discover*.
 . Seleccione *clúster de importación* y haga clic en *Siguiente*.
 . Cargue un archivo de configuración de Kubernetes en formato YAML.
 +

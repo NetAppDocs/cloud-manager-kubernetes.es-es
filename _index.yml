@@ -29,7 +29,7 @@ indexpage:
       url: "/task/task-kubernetes-discover-azure.html"
     - title: Añada clústeres en Google Cloud
       url: "/task/task-kubernetes-discover-gke.html"
-    - title: Agregue clústeres en OpenShift
+    - title: Importe los clústeres de OpenShift
       url: "/task/task-kubernetes-discover-openshift.html"
   - title: Gestione clústeres de Kubernetes
     links:
